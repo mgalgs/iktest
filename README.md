@@ -3,12 +3,13 @@ These are repro instructions for https://github.com/matthewwithanm/django-imagek
 ## S3 prep
 
 First, create a new s3 bucket (ours is named `iktest-media` in this
-example).  We'll need your access keys available in your environment later,
-so go ahead and just export them now:
+example).  We'll need your access keys and bucket name available in your
+environment later, so go ahead and just export them now:
 
 ```shell
 $ export AWS_ACCESS_KEY_ID=...
 $ export AWS_SECRET_ACCESS_KEY=...
+$ export AWS_S3_BUCKET_NAME=iktest-media  # replace with your bucket name
 ```
 
 Now clone the iktest repo:
