@@ -29,7 +29,7 @@ $ aws s3 cp IMG_20160609_183718.jpg s3://iktest-media/media/test_images/
 Your bucket should now look like this:
 
 ```shell
-aws s3 ls --recursive s3://iktest-media                                                                                  1 ↵ ~/sites/iktest2/iktest master 
+$ aws s3 ls --recursive s3://iktest-media
 2016-08-11 20:03:26      49093 media/test_images/IMG_20160609_183718.jpg
 ```
 
