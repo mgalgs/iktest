@@ -2,9 +2,9 @@ These are repro instructions for https://github.com/matthewwithanm/django-imagek
 
 ## S3 prep
 
-First, create a new s3 bucket named `iktest-media`.  We'll need your access
-keys available in your environment later, so go ahead and just export them
-now:
+First, create a new s3 bucket (ours is named `iktest-media` in this
+example).  We'll need your access keys available in your environment later,
+so go ahead and just export them now:
 
 ```shell
 $ export AWS_ACCESS_KEY_ID=...
