@@ -126,7 +126,7 @@ ValueError: The file cannot be reopened.
 ```
 
 If you *reload* your page it will load(!).  However, the thumbnails that
-got generated won't actually be valid.  Check the urls from your web
+got generated won't actually be valid.  Compare the urls from your web
 browser to:
 
 ```shell
