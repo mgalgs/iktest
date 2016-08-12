@@ -125,7 +125,7 @@ Traceback (most recent call last):
 ValueError: The file cannot be reopened.
 ```
 
-If you *reload* your page it will load(!).  However, the thumbnails that
+If you *reload* your page it will work(!).  However, the thumbnails that
 got generated won't actually be valid.  Compare the urls from your web
 browser to:
 
