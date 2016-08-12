@@ -128,7 +128,7 @@ AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
 AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 
 # The S3 bucket used to store uploaded (media) files.
-AWS_S3_BUCKET_NAME = "iktest-media"
+AWS_S3_BUCKET_NAME = os.environ['AWS_S3_BUCKET_NAME']
 
 DEFAULT_FILE_STORAGE = 'django_s3_storage.storage.S3Storage'
 AWS_S3_CALLING_FORMAT = "boto.s3.connection.OrdinaryCallingFormat"
