@@ -1,6 +1,6 @@
-### Full repro instructions
+These are repro instructions for https://github.com/matthewwithanm/django-imagekit/issues/369.
 
-#### S3 prep
+## S3 prep
 
 First, create a new s3 bucket named `iktest-media`.  We'll need your access
 keys available in your environment later, so go ahead and just export them
@@ -33,7 +33,7 @@ aws s3 ls --recursive s3://iktest-media                                         
 ```
 
 
-#### Django prep
+## Django prep
 
 Install everything in a fresh virtualenv and bootstrap some data:
 
@@ -44,6 +44,8 @@ $ pip install Django==1.9 django-s3-storage Pillow git+git://github.com/mattheww
 $ python manage.py migrate
 $ python manage.py testdata
 ```
+
+## Running the app
 
 You're now ready to run the dev server:
 
