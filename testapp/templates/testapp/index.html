@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <table>
+      {% for widget in widgets %}
+        <tr>
+          <td>{{ widget.name }}</td>
+          <td>
+            <ul>
+              <li>{{ widget.image.image_full.url }}</li>
+              <li>{{ widget.image.image_thumbnail.url }}</li>
+              <li>{{ widget.image.image_teeny.url }}</li>
+              <li>{{ widget.image.image_medium.url }}</li>
+            </ul>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
