@@ -1,4 +1,9 @@
-These are repro instructions for https://github.com/matthewwithanm/django-imagekit/issues/369.
+These are repro instructions for
+
+ - https://github.com/matthewwithanm/django-imagekit/issues/369.
+ - https://github.com/etianen/django-s3-storage/issues/33
+
+*UPDATE:* this is now fixed!  [The fix](https://github.com/etianen/django-s3-storage/issues/33) was in django-s3-storage.
 
 ## S3 prep
 
